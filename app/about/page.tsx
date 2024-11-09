@@ -1,7 +1,5 @@
 'use client'
 import Image from "next/image"
-import image from './../asset/typing.jpeg'
-import myphoto from './../asset/image.jpeg'
 import { Button } from "@/components/ui/button"
 import { Palette, Laptop, Wrench } from "lucide-react"
 
@@ -21,12 +19,22 @@ export default function About() {
                 Hi, I`&apos;`m m Kushal! I`&apos;`m a passionate Software Engineer with a strong foundation
                 in data structures, algorithms, and backend development. Currently, I`&apos;`m  in 
                 my final year of B.Tech, with an upcoming role as a Software Engineer at Google.
-                Over the past few years, I`&apos;`ve immersed myself in the tech field, honing my skills
+                Over the past few years, Ive immersed myself in the tech field, honing my skills
                 across various development projects and internships.
               </p>
             </div>
             <div className="hidden lg:block">
-              <Image src={image} alt="Person typing" className="w-full h-auto rounded-2xl object-cover" />
+            <div className="relative w-full h-64"> {/* adjust the container height as needed */}
+            <Image 
+  src="/typing.jpeg" 
+  alt="Person typing" 
+  width={800}       // replace 800 with your desired width
+  height={600}      // replace 600 with your desired height
+  className="w-full h-auto rounded-2xl object-cover" 
+/>
+
+</div>
+
             </div>
           </div>
   
@@ -47,7 +55,14 @@ export default function About() {
                 </p>
             </div>
             <div className="hidden lg:block">
-              <Image src={myphoto} alt="Person typing" className="w-full h-auto rounded-2xl object-cover" />
+            <Image 
+  src="/image.jpeg" 
+  alt="Person typing" 
+  width={800}       // replace with actual width
+  height={600}      // replace with actual height
+  className="w-full h-auto rounded-2xl object-cover" 
+/>
+
             </div>
           </div>
 

@@ -3,11 +3,7 @@
 import { ArrowRight } from "lucide-react"
 import Link from "next/link"
 import { Card, CardContent } from "@/components/ui/card"
-import courseImage from "./../asset/course.png"
 import type { StaticImageData } from "next/image"
-import moneyImage from "./../asset/money.png"
-import mediumImage from "./../asset/medium.png"
-import quizImage from "./../asset/quiz.jpg"
 
 
 // Update the interface to accept StaticImageData or string for imageUrl
@@ -54,28 +50,28 @@ export default function Component() {
     {
       title: "Course Management App",
       description: "A full-featured platform enabling admins to manage courses and users to purchase and track their enrolled classes.",
-      imageUrl: courseImage,
+      imageUrl: "/course.png",
       caseStudyUrl: "https://github.com/kushallunkad22/Coursify",
       backgroundColor: "bg-blue-50"
     },
     {
       title: "Money Management App",
       description: "A secure and efficient app for tracking and managing personal money transactions, ensuring easy and organized financial oversight.",
-      imageUrl: moneyImage,
+      imageUrl: "/Money.png",
       caseStudyUrl: "https://github.com/kushallunkad22/payTM-clone",
       backgroundColor: "bg-pink-50"
     },
     {
         title: "Medium clone",
         description: "A blog-style platform where users can write, edit, and publish articles, emulating the functionality of Medium.",
-        imageUrl: mediumImage,
+        imageUrl: "/medium.png",
         caseStudyUrl: "https://github.com/kushallunkad22/medium-clone",
         backgroundColor: "bg-blue-50"
       },
       {
         title: "Quiz Application ",
         description: "An interactive quiz platform where users can test their knowledge, view scores, and see their ranking on the leaderboard.",
-        imageUrl: quizImage,
+        imageUrl: "/quiz.jpg",
         caseStudyUrl: "https://github.com/kushallunkad22/quiz_app/tree/master",
         backgroundColor: "bg-pink-50"
       }

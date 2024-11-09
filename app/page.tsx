@@ -4,7 +4,6 @@ import { Button } from "@/components/ui/button"
 import Image from 'next/image'
 import Link from 'next/link'
 import { Linkedin } from "lucide-react"
-import image from './asset/image.jpeg'
 
 export default function Component() {
   return (
@@ -58,7 +57,7 @@ export default function Component() {
             <div className="aspect-square w-full md:w-3/4 lg:w-full mx-auto">
               <div className="absolute inset-0 bg-gray-50 rounded-full">
                 <Image 
-                  src={image} 
+                  src="/image.jpeg"
                   alt="Kushal Lunkad" 
                   layout="fill" 
                   objectFit="cover" 
