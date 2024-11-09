@@ -57,7 +57,7 @@ export default function Component() {
             <div className="aspect-square w-full md:w-3/4 lg:w-full mx-auto">
               <div className="absolute inset-0 bg-gray-50 rounded-full">
                 <Image 
-                  src="/image.jpeg"
+                  src="/image.jpg"
                   alt="Kushal Lunkad" 
                   layout="fill" 
                   objectFit="cover" 
