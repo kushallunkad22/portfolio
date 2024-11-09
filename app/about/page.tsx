@@ -16,10 +16,10 @@ export default function About() {
                 <div className="absolute -bottom-3 left-0 w-24 h-3 bg-blue-100 -z-10" />
               </div>
               <p className="text-gray-600 text-lg leading-relaxed">
-                Hi, I`&apos;`m m Kushal! I`&apos;`m a passionate Software Engineer with a strong foundation
-                in data structures, algorithms, and backend development. Currently, I`&apos;`m  in 
+                Hi, I&apos;m m Kushal! I&apos;m a passionate Software Engineer with a strong foundation
+                in data structures, algorithms, and backend development. Currently, I&apos;m  in 
                 my final year of B.Tech, with an upcoming role as a Software Engineer at Google.
-                Over the past few years, Ive immersed myself in the tech field, honing my skills
+                Over the past few years, I&apos;ve immersed myself in the tech field, honing my skills
                 across various development projects and internships.
               </p>
             </div>
@@ -75,11 +75,12 @@ export default function About() {
               </div>
             </div>
             <Button 
-              className="bg-[#0F172A] hover:bg-[#1E293B] text-white px-10 py-6 rounded-full text-lg"
-              onClick={() => window.open('/your-resume.pdf', '_blank')}
-            >
-              Get in touch
-            </Button>
+  className="bg-[#0F172A] hover:bg-[#1E293B] text-white px-10 py-6 rounded-full text-lg"
+  onClick={() => window.open('https://drive.google.com/file/d/1DHC82kQN6RIxrabeZSe0g7adneJTDUTL/view', '_blank')}
+>
+  Get in touch
+</Button>
+
           </div>
 
        {/* Skills & Software Section */}
@@ -90,7 +91,8 @@ export default function About() {
       <div className="absolute -bottom-3 left-0 w-full h-3 bg-blue-100 -z-10" />
     </div>
     <p className="text-gray-600 text-lg max-w-2xl mx-auto">
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lectus mattis nunc aliquam tincidunt est non. Viverra nec eu.
+    Experienced in web development, DevOps, and cloud technologies, I build scalable and efficient applications. 
+    Skilled in modern frameworks, CI/CD, and cloud infrastructure to ensure seamless performance..
     </p>
   </div>
 
@@ -104,13 +106,13 @@ export default function About() {
           <Palette className="w-8 h-8 text-blue-500" />
         </div>
         <div className="space-y-4">
-          <h3 className="text-xl font-bold">Design</h3>
+          <h3 className="text-xl font-bold">Development</h3>
           <ul className="space-y-3 text-gray-600">
-            <li>UI/UX Design</li>
-            <li>Product Design</li>
-            <li>Web Design</li>
-            <li>Design Thinking</li>
-            <li>Branding</li>
+            <li>React</li>
+            <li>Javascript</li>
+            <li>NextJS</li>
+            <li>Tailwind-CSS</li>
+            <li>Monorepo</li>
           </ul>
         </div>
       </div>
@@ -121,13 +123,13 @@ export default function About() {
           <Laptop className="w-8 h-8 text-yellow-500" />
         </div>
         <div className="space-y-4">
-          <h3 className="text-xl font-bold">Development</h3>
+          <h3 className="text-xl font-bold">DEV-ops</h3>
           <ul className="space-y-3 text-gray-600">
-            <li>HTML & CSS</li>
-            <li>Javascript</li>
-            <li>React</li>
-            <li>React Native</li>
-            <li>No Code</li>
+            <li>Kubernetes</li>
+            <li>CI/CD</li>
+            <li>OpenAPI-Spec</li>
+            <li>Bash Scripting</li>
+            <li>Docker</li>
           </ul>
         </div>
       </div>
@@ -138,13 +140,13 @@ export default function About() {
           <Wrench className="w-8 h-8 text-purple-500" />
         </div>
         <div className="space-y-4">
-          <h3 className="text-xl font-bold">Tools</h3>
+          <h3 className="text-xl font-bold">Cloud</h3>
           <ul className="space-y-3 text-gray-600">
-            <li>Webflow</li>
-            <li>Figma</li>
-            <li>Notion</li>
-            <li>Photoshop</li>
-            <li>Illustrator</li>
+            <li>Clouflare</li>
+            <li>AWS</li>
+            <li>GCP</li>
+            <li>Cloud Logging and Monitoring</li>
+            <li>Prometheus and Grafana </li>
           </ul>
         </div>
       </div>
@@ -152,11 +154,8 @@ export default function About() {
     </div>
   </div>
 </div>
-
-
-
-          </div>
-        </main>
+    </div>
+    </main>
       </div>
     )
   }

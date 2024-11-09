@@ -16,7 +16,7 @@ export default function Component() {
         <div className="flex flex-col lg:grid lg:grid-cols-2 gap-12 items-center">
           <div className="space-y-8">
             <div className="space-y-6">
-              <h2 className="text-xl text-gray-600">Hey, I`&apos;`m Kushal Lunkad</h2>
+              <h2 className="text-xl text-gray-600">Hey, I&apos;m Kushal Lunkad</h2>
               <h1 className="text-4xl md:text-6xl font-bold leading-tight tracking-tighter">
                 I am a web developer and passionate software engineer.
               </h1>
