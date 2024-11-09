@@ -1,7 +1,7 @@
 'use client'
 import Image from "next/image"
-import image from './../public/typing.jpeg'
-import myphoto from './../public/image.jpeg'
+import image from './../asset/typing.jpeg'
+import myphoto from './../asset/image.jpeg'
 import { Button } from "@/components/ui/button"
 import { Palette, Laptop, Wrench } from "lucide-react"
 
@@ -18,10 +18,10 @@ export default function About() {
                 <div className="absolute -bottom-3 left-0 w-24 h-3 bg-blue-100 -z-10" />
               </div>
               <p className="text-gray-600 text-lg leading-relaxed">
-                Hi, I'm Kushal! I'm a passionate Software Engineer with a strong foundation
-                in data structures, algorithms, and backend development. Currently, I'm in 
+                Hi, I`&apos;`m m Kushal! I`&apos;`m a passionate Software Engineer with a strong foundation
+                in data structures, algorithms, and backend development. Currently, I`&apos;`m  in 
                 my final year of B.Tech, with an upcoming role as a Software Engineer at Google.
-                Over the past few years, I've immersed myself in the tech field, honing my skills
+                Over the past few years, I`&apos;`ve immersed myself in the tech field, honing my skills
                 across various development projects and internships.
               </p>
             </div>

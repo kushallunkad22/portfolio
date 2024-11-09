@@ -3,11 +3,11 @@
 import { ArrowRight } from "lucide-react"
 import Link from "next/link"
 import { Card, CardContent } from "@/components/ui/card"
-import courseImage from "./../public/course.png"
+import courseImage from "./../asset/course.png"
 import type { StaticImageData } from "next/image"
-import moneyImage from "./../public/money.png"
-import mediumImage from "./../public/medium.png"
-import quizImage from "./../public/quiz.jpg"
+import moneyImage from "./../asset/money.png"
+import mediumImage from "./../asset/medium.png"
+import quizImage from "./../asset/quiz.jpg"
 
 
 // Update the interface to accept StaticImageData or string for imageUrl

@@ -1,15 +1,12 @@
 'use client'
 
-import { useState } from 'react'
 import { Button } from "@/components/ui/button"
 import Image from 'next/image'
 import Link from 'next/link'
 import { Linkedin } from "lucide-react"
-import image from './public/image.jpeg'
+import image from './asset/image.jpeg'
 
 export default function Component() {
-  const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
-
   return (
     <div className="min-h-screen bg-white">
       {/* Navigation */}
@@ -20,7 +17,7 @@ export default function Component() {
         <div className="flex flex-col lg:grid lg:grid-cols-2 gap-12 items-center">
           <div className="space-y-8">
             <div className="space-y-6">
-              <h2 className="text-xl text-gray-600">Hey, I'm Kushal Lunkad</h2>
+              <h2 className="text-xl text-gray-600">Hey, I`&apos;`m Kushal Lunkad</h2>
               <h1 className="text-4xl md:text-6xl font-bold leading-tight tracking-tighter">
                 I am a web developer and passionate software engineer.
               </h1>
