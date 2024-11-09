@@ -56,7 +56,7 @@ export default function About() {
             </div>
             <div className="hidden lg:block">
             <Image 
-  src="/image.jpg" 
+  src="/image.jpeg" 
   alt="Person typing" 
   width={800}       // replace with actual width
   height={600}      // replace with actual height
