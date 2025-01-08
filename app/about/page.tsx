@@ -76,7 +76,7 @@ export default function About() {
             </div>
             <Button 
   className="bg-[#0F172A] hover:bg-[#1E293B] text-white px-10 py-6 rounded-full text-lg"
-  onClick={() => window.open('https://drive.google.com/file/d/1DHC82kQN6RIxrabeZSe0g7adneJTDUTL/view', '_blank')}
+  onClick={() => window.open('https://drive.google.com/file/d/1XSWDBbJdwH6meX8m2G-d5Mc2dGBiZJ4S/view', '_blank')}
 >
   Get in touch
 </Button>
